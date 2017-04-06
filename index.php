@@ -60,6 +60,34 @@ and open the template in the editor.
                         </td>
                     </tr>
 TABLE;
+                
+                //write the table rows
+                foreach($ips as $host=>$ipAddress) {
+                    
+                    if ($building == $buildings[$host]) {
+                        
+                        if($printerTypes[$host] == "Lexmark") {
+                            $className = "lexmark";
+                        } else if($printerTypes[$host] == "HP LaserJet") {
+                            $className = "laserJet";
+                        } else if ($printerTypes[$host] == "Epson") {
+                            $className = "epson";
+                        } else {
+                            $className = "other";
+                        }
+                        
+                        echo <<<TABLEROW
+                        
+                        <tr>
+                            <td class="$className">$host</td>
+                            <td>$ipAddress</td>
+                            <td>$printerTypes[$host]</td>
+                            <td>$roomNumbers[$host]</td>
+                        </tr>
+TABLEROW;
+                    
+                    }
+                }
         
                 echo"</table>";
         }// end of for each building
