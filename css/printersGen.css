@@ -1,0 +1,44 @@
+body {
+    font-family: 'Trebuchet MS', Verdana;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+table {
+    border: 5px outset;
+    margin: 4em auto;    /* center our tables */
+    width: 600px;
+}
+
+tr.firstRow {
+    background-color: rgb(120, 240, 140);
+}
+
+td {
+    font-family: Trebuchet MS, Verdana;
+    font-size: 0.7em;
+    border: 1px solid #222;
+    text-align: left;
+}
+
+td.lexmark {
+    background-color: #6699cc;
+}
+
+td.laserJet {
+    background-color: #ffcc66;
+}
+
+td.epson {
+    background-color: #ccccff;
+}
+
+td.other {
+    background-color: #cc6666;
+}
+
+.headerTxt {
+    font-weight: 900;
+    color: navy;
+    font-size: 140%;
+}

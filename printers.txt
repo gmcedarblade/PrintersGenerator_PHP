@@ -1,0 +1,14 @@
+160.32.18.5,cis.cvtc.edu,Lexmark,BEC,160
+160.32.18.50,bec159d.cvtc.edu,HP LaserJet,BEC,143
+150.88.90.24,giver.com,Epson,GWEC,140
+160.32.72.32,cvtcColor1,Epson,BEC,110
+150.87.12.12,cf.cvtc.edu,Lexmark,CF,101
+160.32.24.1,you.silly.org,Canon,BEC,200
+10.18.20.14,web3.itsd.cvtc.edu,Lexmark,BEC,154
+160.32.44.45,mno.cvtc.edu,HP LaserJet,GWEC,110
+160.32.44.44,jkl.cvtc.edu,HP LaserJet,GWEC,110
+160.32.44.46,pqr.cvtc.edu,HP LaserJet,GWEC,110
+160.32.44.41,abc.cvtc.edu,HP LaserJet,GWEC,110
+160.32.44.43,ghi.cvtc.edu,HP LaserJet,GWEC,110
+160.32.44.42,def.cvtc.edu,HP LaserJet,GWEC,110
+25.16.88.14,rf.cvtc.edu,Lexmark,RF,101
